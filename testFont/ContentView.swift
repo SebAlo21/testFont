@@ -21,6 +21,8 @@ struct ContentView: View {
         Circle()
             .foregroundStyle(Color.blue)
             .frame(width: 60)
+        RoundedRectangle(cornerRadius: 20)
+            .frame(width: 30)
     }
 }
 
